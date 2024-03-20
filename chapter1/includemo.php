@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-      include "heading.php";
+      include './exp1.php';
       
  ?>
 </body>
