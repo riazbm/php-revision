@@ -6,7 +6,7 @@
   print "Always reach out to @Riazbm for help";
   echo "<br>Today is Friday, we're going to the zoo";
   //use of backslashes too
-  echo '<br>Today is Friday, we\'re going to the zoo';
-  echo "\"";   
+  echo '<br>Today is Friday, we\'re going to the zoo<br>';
+  echo "\"<br>";   
   echo "\\";
 
