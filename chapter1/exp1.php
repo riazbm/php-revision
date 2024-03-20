@@ -17,10 +17,12 @@
       include './exp1.php';
       require './heading.html';
       include_once './exp1.php';
-      include_once './exp1.php';
-      
+       
  ?>
 
  <!--Redirecting Users  -->
 
- 
+<?php
+// only works when its at the top of entire code else..
+  header('Location: http://localhost/login');
+  ?>
