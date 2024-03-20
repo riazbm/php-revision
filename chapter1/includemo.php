@@ -8,6 +8,7 @@
 <body>
     <?php
       include './exp1.php';
+      require './heading.html';
       
  ?>
 </body>
