@@ -9,6 +9,8 @@
     <?php
       include './exp1.php';
       require './heading.html';
+      include_once './exp1.php';
+      include_once './exp1.php';
       
  ?>
 </body>
