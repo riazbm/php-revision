@@ -10,3 +10,17 @@
   echo "\"<br>";   
   echo "\\";
 ?>
+
+<!-- Duplicating codes -->
+
+<?php
+      include './exp1.php';
+      require './heading.html';
+      include_once './exp1.php';
+      include_once './exp1.php';
+      
+ ?>
+
+ <!--Redirecting Users  -->
+
+ 
