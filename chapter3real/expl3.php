@@ -21,4 +21,16 @@
   echo "<br>".$str2;
   echo "<br>".$str3;
   echo "<br>".$str4;
+  echo "<br>";
+
+  $str5 = 'is';  
+  echo 'PHP'.$str5.'Fun<br>';
+  echo 'PHP' . trim($str5) . 'Fun<br>';  //removes white space or any unwanted charaters incase of any
+
+  $str6 = 'ABCDEF';
+  ECHO substr($str6, 2,);
+  echo "<br>";
+  echo substr($str6, 2, 2);
+  echo "<br>";
+  echo substr($str6, -3);
 ?>
