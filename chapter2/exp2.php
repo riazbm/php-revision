@@ -38,4 +38,16 @@
    $c = (array)true;
    var_dump($c);
    var_dump($state);
+
+//    operators in PHP
+
+   $a = 10;           //assgnment operaator
+   $a + $b;           //arithmetic operators
+   $x = $x + 5;       //combined assignment operators
+
+   $q = 3;            // increament and decreament operators
+   echo "<br>$q<br>";
+   echo ++$q;
+   echo "<br>$a<br>";
+   echo --$a;
  ?>  
