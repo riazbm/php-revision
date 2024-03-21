@@ -4,3 +4,4 @@
   $msg = 'hellow';
   $greeting = "Good morning";
   $emptyStr = "";
+?>
