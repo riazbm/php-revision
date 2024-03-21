@@ -25,4 +25,17 @@
    var_dump($country);
    var_dump($a);
    var_dump($name);
+
+//    Type casting 
+   
+   $b = (int)23.5;
+   var_dump($b);
+   $city = (boolean)"Bangalore";
+   var_dump($city);
+   echo "<br>";
+   $state = (object)"Karnataka";
+   echo '<br>';
+   $c = (array)true;
+   var_dump($c);
+   var_dump($state);
  ?>  
