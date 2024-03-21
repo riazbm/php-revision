@@ -14,5 +14,15 @@
    echo "the value is $x ";
    echo '<br>';
    echo "the age is $age";
+   echo '<br>';
 
+//    basic data types in php
+
+   $a = 10;
+   $b = 23.5;
+   $c = true;
+
+   var_dump($country);
+   var_dump($a);
+   var_dump($name);
  ?>  
