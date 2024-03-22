@@ -123,5 +123,14 @@ not(!!) -->
     echo 'second.<br>';
     }
 
+    $h = 5;
+
+    if ($h ==5):
+        echo '<br>the value of $h is<br>';
+        echo $h;
+    else:
+        echo 'not five';
+    endif;
+
 
 ?>
