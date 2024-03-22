@@ -66,4 +66,24 @@ not(!!) -->
      echo '<br>';
    }
 
+//    foreach loop syntaxes
+
+  //    foreach ($array as $value){
+    //code }
+
+  //    foreach ($array as $key => $value){
+    //code }
+
+    $arr1 = array(10,20,30,40,50);
+
+    foreach ($arr1 as $num){
+        echo 'the number is' .$num. '<br>';
+    }
+
+    $arr2 = array('Amini'=>12, 'feiz'=>45, 'kats'=>9);
+    
+    foreach($arr2 as $name=>$age){
+        echo $name. 'is' .$age. 'years old <br>';
+    }
+
 ?>
