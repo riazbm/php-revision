@@ -102,4 +102,26 @@ not(!!) -->
         $m++;
      }
      while ($m < 110);
+
+    //  break and continue
+
+    
+    for ($i = 0; $i < 10; $i++)
+    {
+        echo "$i<br>";
+        if($i == 4)
+        break;
+    }
+
+    for ($j = 0; $j < 10; $j++)
+    {
+        echo '$j='.$j.',';
+        if ($j == 4)
+        continue;
+    
+    echo 'first.';
+    echo 'second.<br>';
+    }
+
+
 ?>
