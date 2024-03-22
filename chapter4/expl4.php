@@ -93,4 +93,13 @@ not(!!) -->
         echo 'the value is' .$d. '<br>';
         $d++;
     }
+
+    // do while loop
+
+    $m = 100;
+     do {
+        echo 'the value is '.$m. '<br>';
+        $m++;
+     }
+     while ($m < 110);
 ?>
