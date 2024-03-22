@@ -1,6 +1,6 @@
 <!-- comparison operators -->
 
-equal(==)
+<!-- equal(==)
 identical(===)
 not equal(!= or <>)
 not identical(!==)
@@ -8,13 +8,13 @@ less than(<)
 greater than(>)
 less than or equal to(<=)
 greater than or equal to(>=)
-spaceship(<=>)
+spaceship(<=>) -->
 
 <!-- Logical Operators -->
 
-and(&&)
+<!-- and(&&)
 or(||)
-not(!!)
+not(!!) -->
 
 <!-- Control structures in PHP -->
 
@@ -32,5 +32,10 @@ not(!!)
      'first elseif block';
    }
    else 'false block';
+
+//    ternary operator
+
+   $x = (5==5 ? 'yes' : 'no');
+   echo $x;
 
 ?>
