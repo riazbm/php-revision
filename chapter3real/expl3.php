@@ -33,4 +33,23 @@
   echo substr($str6, 2, 2);
   echo "<br>";
   echo substr($str6, -3);
+  echo '<br>';
+
+  // Using srings to represent dates
+
+  echo strtotime("next monday");
+  echo '<br>';
+  echo date('d-M-Y', strtotime("+10 hours"));
+  echo '<br>';
+  date_default_timezone_set('America/New_York');
+
+
+  // Creating arrays
+
+  $firstArr = array();
+  $secondArr = array(11, 16, 4, 9, 12);
+  echo $secondArr[3];
+  echo '<br>';
+  $fruitArr = array('pineapple', 'apple', 'orange', 'banana');
+  
 ?>
