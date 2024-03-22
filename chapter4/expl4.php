@@ -81,9 +81,56 @@ not(!!) -->
     }
 
     $arr2 = array('Amini'=>12, 'feiz'=>45, 'kats'=>9);
-    
+
     foreach($arr2 as $name=>$age){
         echo $name. 'is' .$age. 'years old <br>';
     }
+
+    // while loop
+
+    $d = 1;
+    while ($d < 5){
+        echo 'the value is' .$d. '<br>';
+        $d++;
+    }
+
+    // do while loop
+
+    $m = 100;
+     do {
+        echo 'the value is '.$m. '<br>';
+        $m++;
+     }
+     while ($m < 110);
+
+    //  break and continue
+
+    
+    for ($i = 0; $i < 10; $i++)
+    {
+        echo "$i<br>";
+        if($i == 4)
+        break;
+    }
+
+    for ($j = 0; $j < 10; $j++)
+    {
+        echo '$j='.$j.',';
+        if ($j == 4)
+        continue;
+    
+    echo 'first.';
+    echo 'second.<br>';
+    }
+
+    $h = 5;
+
+    if ($h ==5):
+        echo '<br>the value of $h is<br>';
+        echo $h;
+    else:
+        echo 'not five';
+    endif;
+
 
 ?>
