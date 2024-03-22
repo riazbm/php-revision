@@ -51,5 +51,20 @@
   echo $secondArr[3];
   echo '<br>';
   $fruitArr = array('pineapple', 'apple', 'orange', 'banana');
+  $assocArr = array(
+    'Hamso' => 11, 
+    'Kelly' => 16, 
+    'Bakari' => 12, 
+  );
+  echo $assocArr['Hamso'];
+  echo '<br>';
+  $simpleMDArr = array(
+    array(1,2,3,9,0),
+    array(4,7,8,1,12),
+    array(9,45,89,0)
+  );
+  echo $simpleMDArr[1][2];
+  echo '<br>';
+
   
 ?>
