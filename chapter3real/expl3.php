@@ -66,5 +66,32 @@
   echo $simpleMDArr[1][2];
   echo '<br>';
 
-  
+  // Displaying content of an array
+
+  $myArray = array(2,2.4,'php',408);
+  var_dump($myArray);
+  echo '<br>';
+  print_r($myArray);
+  echo '<br>';
+
+  // Adding elements to arrays
+
+  $addDemo = array(0,9,8,7);
+  $addDemo[] = 5;
+
+  $addDemoAssoc = array('Duli'=>90, 'Madola'=>80, 'Time'=>688,);
+  $addDemoAssoc['AbdulK'] = 7;
+
+  // deleting elements from arrays
+
+  $colors = array('brown','black','beidge','purple');
+  array_splice($colors, 2);
+
+// commonly used arrays
+  // count();
+  // array_search();
+  // in_array();
+  // array_merge();
+
+
 ?>
