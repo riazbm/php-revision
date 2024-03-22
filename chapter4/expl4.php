@@ -37,5 +37,25 @@ not(!!) -->
 
    $x = (5==5 ? 'yes' : 'no');
    echo $x;
+   echo "<br>";
+
+//    switch statement
+
+   $r = 20;
+
+   switch ($r)
+   {
+     case 10:
+        echo 'chocolate<br>';
+        break;
+     case 20:
+        echo 'vanilla<br>';
+        break;
+     case 30:
+        echo 'caramel<br>';
+        break;
+     default:
+      echo 'strawberry<br>';
+   }
 
 ?>
