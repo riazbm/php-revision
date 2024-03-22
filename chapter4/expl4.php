@@ -81,9 +81,16 @@ not(!!) -->
     }
 
     $arr2 = array('Amini'=>12, 'feiz'=>45, 'kats'=>9);
-    
+
     foreach($arr2 as $name=>$age){
         echo $name. 'is' .$age. 'years old <br>';
     }
 
+    // while loop
+
+    $d = 1;
+    while ($d < 5){
+        echo 'the value is' .$d. '<br>';
+        $d++;
+    }
 ?>
