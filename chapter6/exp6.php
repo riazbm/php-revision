@@ -10,7 +10,7 @@
         <input type="text" name="studentname" value="your name" placeholder="Enter name"><br><br>
         Favourite subject<br>
         <input type="checkbox" name="sub[]" value="EL">English <br>
-        <input type="checkbox" name="sub[]" value="MA"Math <br>
+        <input type="checkbox" name="sub[]" value="MA">Math <br>
         <input type="checkbox" name="sub[]" value="PG">Programming<br><br>
         Gender<br>
         <input type="radio" name="gender" value="M">Male<br>
