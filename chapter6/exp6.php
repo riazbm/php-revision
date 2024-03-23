@@ -17,5 +17,13 @@
         <input type="radio" name="gender" value="M">Female<br><br>
         <input type="submit" name="sm" value="submit form">
     </form>
+
+    <?php
+       $a = 5;
+       $b = NULL;
+       var_dump(isset($a));
+       var_dump(isset($b));
+       var_dump(isset($c));
+    ?>   
 </body>
 </html>
