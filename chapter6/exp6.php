@@ -19,6 +19,9 @@
     </form>
 
     <?php
+       if (isset($_GET['sm']))
+       print_r($_GET);
+    
        $a = 5;
        $b = NULL;
        var_dump(isset($a));
