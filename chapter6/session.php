@@ -3,7 +3,7 @@
 
   $_SESSION['myFavFood'] = 'pizza';
   $_SESSION['myFavDrink'] = 'milk';
-  $_SESSION['myFAVColor'] = 'purple';
+  $_SESSION['myFavColor'] = 'purple';
 
   #updating a session variable
   $_SESSION['myFavDrink'] = 'beer';
