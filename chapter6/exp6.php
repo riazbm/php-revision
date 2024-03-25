@@ -9,7 +9,7 @@
     <form action="" method="post">
         <input type="text" name="studentname" value="<?php
           if (isset($_POST['studentname']))
-          echo $_POST['studentname'];
+          echo 'you entered' .$_POST['studentname']. 'into the text field';
         ?>"><br><br>
         Favourite subject<br>
         <input type="checkbox" name="sub[]" value="EL"
@@ -54,5 +54,6 @@
        ECHO '<BR>';
        var_dump(filter_var($email, FILTER_VALIDATE_EMAIL));
     ?>   
+    <script>alert('Hacked')</script>
 </body>
 </html>
