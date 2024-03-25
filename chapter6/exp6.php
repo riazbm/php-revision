@@ -6,7 +6,7 @@
     <title>PHP form handling</title>
 </head>
 <body>
-    <form action="" method="get">
+    <form action="" method="post">
         <input type="text" name="studentname" value="your name" placeholder="Enter name"><br><br>
         Favourite subject<br>
         <input type="checkbox" name="sub[]" value="EL">English <br>
@@ -19,8 +19,8 @@
     </form>
 
     <?php
-       if (isset($_GET['sm']))
-       print_r($_GET);
+       if (isset($_POST['sm']))
+       print_r($_POST);
     
        $a = 5;
        $b = NULL;
