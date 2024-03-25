@@ -45,6 +45,14 @@
        var_dump(isset($a));
        var_dump(isset($b));
        var_dump(isset($c));
+
+       $num = '12.5abc';
+       ECHO '<BR>';
+       echo filter_var($num, FILTER_SANITIZE_NUMBER_INT);
+
+       $email = 'abcd@gmail';
+       ECHO '<BR>';
+       var_dump(filter_var($email, FILTER_VALIDATE_EMAIL));
     ?>   
 </body>
 </html>
