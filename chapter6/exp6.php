@@ -31,8 +31,8 @@
           ?>
           >Programming<br><br>
         Gender<br>
-        <input type="radio" name="gender" value="M">Male<br>
-        <input type="radio" name="gender" value="M">Female<br><br>
+        <input type="radio" name="gender" value="M" checked>Male<br>
+        <input type="radio" name="gender" value="M"checked>Female<br><br>
         <input type="submit" name="sm" value="submit form">
     </form>
 
@@ -54,6 +54,5 @@
        ECHO '<BR>';
        var_dump(filter_var($email, FILTER_VALIDATE_EMAIL));
     ?>   
-    <script>alert('Hacked')</script>
 </body>
 </html>
