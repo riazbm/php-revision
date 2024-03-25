@@ -7,11 +7,29 @@
 </head>
 <body>
     <form action="" method="post">
-        <input type="text" name="studentname" value="your name" placeholder="Enter name"><br><br>
+        <input type="text" name="studentname" value="<?php
+          if (isset($_POST['studentname']))
+          echo $_POST['studentname'];
+        ?>"><br><br>
         Favourite subject<br>
-        <input type="checkbox" name="sub[]" value="EL">English <br>
-        <input type="checkbox" name="sub[]" value="MA">Math <br>
-        <input type="checkbox" name="sub[]" value="PG">Programming<br><br>
+        <input type="checkbox" name="sub[]" value="EL"
+        <?php
+          if (isset($_POST['sub']) && in_array('EL', $_POST['sub']))
+          echo 'checked';
+        ?>
+        >English <br>
+        <input type="checkbox" name="sub[]" value="MA"
+        <?php
+          if (isset($_POST['sub']) && in_array('MA', $_POST['sub']))
+          echo 'checked';
+        ?>
+        >Math <br>
+        <input type="checkbox" name="sub[]" value="PG"
+        <?php
+          if (isset($_POST['sub']) && in_array('PG', $_POST['sub']))
+          echo 'checked';
+          ?>
+          >Programming<br><br>
         Gender<br>
         <input type="radio" name="gender" value="M">Male<br>
         <input type="radio" name="gender" value="M">Female<br><br>
