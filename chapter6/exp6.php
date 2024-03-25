@@ -9,7 +9,7 @@
     <form action="" method="post">
         <input type="text" name="studentname" value="<?php
           if (isset($_POST['studentname']))
-          echo 'you entered' .$_POST['studentname']. 'into the text field';
+          echo 'you entered' .htmlspecialchars($_POST['studentname']). 'into the text field';
         ?>"><br><br>
         Favourite subject<br>
         <input type="checkbox" name="sub[]" value="EL"
