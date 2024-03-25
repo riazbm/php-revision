@@ -50,7 +50,7 @@
        ECHO '<BR>';
        echo filter_var($num, FILTER_SANITIZE_NUMBER_INT);
 
-       $email = 'abcd@gmail';
+       $email = 'abcd@gmail.com';
        ECHO '<BR>';
        var_dump(filter_var($email, FILTER_VALIDATE_EMAIL));
     ?>   
