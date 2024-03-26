@@ -1,8 +1,8 @@
 <?php
   class movie{
     private $id;
-    public $title;
-    public $rentalPrice;
+    private $title;
+    private $rentalPrice;
     const DISCOUNT = 10;
     public function __construct($pId, $pTitle, $pRentalPrice){
         $this -> id = $pId;
