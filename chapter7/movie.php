@@ -2,7 +2,7 @@
   class movie{
     private $id;
     public $title;
-    private $rentalPrice;
+    public $rentalPrice;
     const DISCOUNT = 10;
     public function __construct($pId, $pTitle, $pRentalPrice){
         $this -> id = $pId;
