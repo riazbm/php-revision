@@ -5,7 +5,9 @@
 
   echo $mov1->title.'<br>';
   echo $mov2->conversion('Japan').'<br>';
-  echo $mov1->displayHeading('H1');
+  echo $mov1->displayHeading('H1');'<br>';
+  $mov1->rentalPrice = -20;
+  echo $mov1->rentalPrice.'<br>';
 
   echo movie::DISCOUNT.'<br>';
   echo $mov1::DISCOUNT.'<br>';
