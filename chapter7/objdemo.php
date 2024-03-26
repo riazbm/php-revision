@@ -13,5 +13,4 @@
 
 
   echo movie::DISCOUNT.'<br>';
-  echo $mov1::DISCOUNT.'<br>';
-  echo $mov2::DISCOUNT.'<br>';
+  
