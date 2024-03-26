@@ -48,3 +48,4 @@
            '<br>Rental Price (USD) = '.$this->rentalPrice;
     }
   }
+  ?>
