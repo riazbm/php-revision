@@ -21,4 +21,10 @@
         }
         return round($rate*$this->rentalPrice, 2);
     }
+    public function displayHeading($tag){
+      if (substr($this->id, 0, 1) == 'N')
+        return "<$tag>Movies</$tag>";
+      else
+        return "<$tag>Award Winning Movies</$tag>";
+    }
   }
