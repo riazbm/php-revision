@@ -5,6 +5,7 @@
 
   echo $mov1->title.'<br>';
   echo $mov2->conversion('Japan').'<br>';
+  echo $mov1->id. '<br>';
 
   echo movie::DISCOUNT.'<br>';
   echo $mov1::DISCOUNT.'<br>';
