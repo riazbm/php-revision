@@ -27,4 +27,17 @@
       else
         return "<$tag>Award Winning Movies</$tag>";
     }
+    public function __get($propertyRequested)
+    {
+        if ($propertyRequested == 'id')
+          return  'you do not have permission to access id <br>';
+        else
+          return $this->$propertyRequested;
+    }
+    public function __set($propertyToModify, $value){
+        if ($propertyToModify == 'rentalPrice' && $value > $this->rentalPrice)
+           $this->rentalPrice = $value;
+        else
+           echo 'Failed to modify' .$propertyToModify. '<br>';
+    }
   }
