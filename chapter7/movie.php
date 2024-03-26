@@ -40,4 +40,11 @@
         else
            echo 'Failed to modify' .$propertyToModify. '<br>';
     }
+    public function __toString(){
+        return
+           'Discount = '.self::DISCOUNT. '%'.
+           '<br>Title = '.$this->title.
+           '<br>Id = '.$this->id.
+           '<br>Rental Price (USD) = '.$this->rentalPrice;
+    }
   }

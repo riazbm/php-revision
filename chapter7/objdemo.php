@@ -10,6 +10,8 @@
   echo $mov1->rentalPrice.'<br>';
   $mov1->id = 'A12387';
   echo $mov1->id;
+  echo '<br>';
+  echo $mov1;
 
 
   echo movie::DISCOUNT.'<br>';
