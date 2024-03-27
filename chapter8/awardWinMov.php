@@ -1,5 +1,5 @@
 <?php
-  include "movie.php";
+  include "../chapter7/movie.php";
   class awardWinMov extends movie {
     private $award;
 
@@ -22,5 +22,9 @@
         "you might also like:<br>".
         "<br>Movie Title = ".$others.
         "<br>Rental Price = ".$this->conversion($country);
+    }
+    public function displayHeading($tag) {
+        $baseMsg = parent::displayHeading($tag);
+        return $baseMsg.$this->award;
     }
   }
