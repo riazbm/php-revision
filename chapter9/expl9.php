@@ -4,7 +4,7 @@
 
   $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-  $owner = $_POST['ownername'];
+  $owner = $_POST['fullname'];
 
   $sql = "SELECT * FROM pets WHERE owner = '$owner'";
   $stmt = $pdo->query($sql);
