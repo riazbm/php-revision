@@ -1,6 +1,6 @@
 <?php
   include "movie.php";
-  class awardWinMovphp extends movie {
+  class awardWinMov extends movie {
     private $award;
 
     public function __construct($pId, $pTitle, $pRentalPrice, $Award){
