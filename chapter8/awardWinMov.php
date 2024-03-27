@@ -19,9 +19,9 @@
                 $others = "And so it begins";        
         }
         return 
-        "you might also like:<br>".
-        "<br>Movie Title = ".$others.
-        "<br>Rental Price = ".$this->conversion($country);
+          "you might also like:<br>".
+          "<br>Movie Title = ".$others.
+          "<br>Rental Price = ".$this->conversion($country);
     }
     public function displayHeading($tag) {
         $baseMsg = parent::displayHeading($tag);
