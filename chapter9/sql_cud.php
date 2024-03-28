@@ -2,7 +2,7 @@
 
 //   SECTION A - CONNECT TO DATABASE
 
-$pdo = new PDO("mysql:host=localhost;dbname=pawszone", "pz.admin", "@AB123m>?!09");
+$pdo = new PDO("mysql:host=localhost;dbname=pawszone", "pz_admin", "@AB123m>?!09");
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 // SECTION B - CREATE TABLE
@@ -24,8 +24,8 @@ for ($i = 0; $i < 4; ++$i){
     $stmt->bindValue(':owner', $owner[$i]);
     $stmt->bindValue(':pnamw', $pname[$i]);
     $stmt->bindValue(':breed', $breed[$i]);
-    
-    $stmt->execute();
+
+     
 }
 
 // SECTION D - SELECT DATA
