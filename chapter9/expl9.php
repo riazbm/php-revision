@@ -1,6 +1,6 @@
 <?php
   
-  $pdo = new PDO("mysql:host=localhost;dbname=pawszone", "pz_admin", "ABCD");
+  $pdo = new PDO("mysql:host=localhost;dbname=pawszone", "pz_admin", "@AB123m>?!09");
 
   $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
