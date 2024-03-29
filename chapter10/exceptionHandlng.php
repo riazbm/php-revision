@@ -21,7 +21,7 @@ function displayUserInput($userInput) {
 }
 
 try {
-    displayUserInput(105);
+    displayUserInput(34);
 }catch(OutOfRangeException $e){
     echo $e->getMessage();
 }
