@@ -25,3 +25,7 @@ try {
 }catch(OutOfRangeException $e){
     echo $e->getMessage();
 }
+function myExceptionHandler($e) {
+    echo '<br>Oppsss... An uncaught exception occured.<br>'.$e->getMessage();
+}
+set_exception_handler('myExceptionHandler');
