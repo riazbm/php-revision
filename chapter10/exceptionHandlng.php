@@ -29,3 +29,6 @@ function myExceptionHandler($e) {
     echo '<br>Oppsss... An uncaught exception occured.<br>'.$e->getMessage();
 }
 set_exception_handler('myExceptionHandler');
+
+$pdo = new PDO("some invallid database");
+echo '<br>This will not be executed';
